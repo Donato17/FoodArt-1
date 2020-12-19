@@ -18,7 +18,7 @@ public interface AmministratoreDAO {
 	/**
 	 * Carica i dati di un singolo amministratore in base al codice identificativo utente.
 	 * @param idUtente
-	 * @return un amministratore se l'identificativo utente è realmente corrispondente ad un amministratore, null altrimenti
+	 * @return un amministratore se l'identificativo utente ï¿½ realmente corrispondente ad un amministratore, null altrimenti
 	 * @throws SQLException
 	 */	
 	public AmministratoreBean doRetriveById(int idUtente) throws SQLException;
